@@ -30,19 +30,13 @@
           	<h1>Contact us Management</h1>
           	<table class="table table-bordered">
           		<tr><th>Name</th><th>Email</th><th>Subject</th><th>Edit</th></tr>
-          	<?php
-          	if(mysql_num_rows($query) > 0) {
-          		while($row = mysql_fetch_array($query)) {
-          			?>
+          	
           		<tr>
           			<td>123</td>
           			<td>123</td>    
           			<td>123</td>          			
           		</tr>
-          			<?php
-          		}	
-          	}
-          	?>            
+          			          
           	</table>
           </div>
 
