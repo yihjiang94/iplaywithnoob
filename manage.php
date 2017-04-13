@@ -2,10 +2,7 @@
 session_start();
 if(isset($_SESSION['is_login'])) {	
 
-	include "functions.php";
-	include "db.php";
-
-	$query = mysql_query("SELECT * FROM contact");
+	
 
 ?>
 
@@ -44,10 +41,9 @@ if(isset($_SESSION['is_login'])) {
           		while($row = mysql_fetch_array($query)) {
           			?>
           		<tr>
-          			<td><?=$row['name']?></td>
-          			<td><?=$row['email']?></td>
-          			<td><?=$row['subject']?></td>    
-          			<td><?=$row['message']?></td>          			
+          			<td>123</td>
+          			<td>123</td>    
+          			<td>123</td>          			
           		</tr>
           			<?php
           		}	
