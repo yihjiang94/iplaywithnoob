@@ -1,10 +1,4 @@
-<?php
-session_start();
-if(isset($_SESSION['is_login'])) {	
 
-	
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,8 +64,3 @@ if(isset($_SESSION['is_login'])) {
 </html>
 
 
-<?php
-} else {
-	header("Location: login.php");
-}
-?>
